@@ -1,0 +1,9 @@
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\bin\Debug\Data.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\bin\Debug\Data.pdb
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\bin\Debug\Entities.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\bin\Debug\Entities.pdb
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.pdb

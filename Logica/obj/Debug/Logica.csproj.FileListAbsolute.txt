@@ -1,0 +1,11 @@
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Logica.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Logica.pdb
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Data.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Entities.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Data.pdb
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\bin\Debug\Entities.pdb
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.dll
+C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.pdb
