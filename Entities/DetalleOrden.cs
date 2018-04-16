@@ -8,7 +8,7 @@ namespace Entities
     /// Detalle de la orden
     /// </summary>
     /// <seealso cref="Entities.Identificador{System.Int32}" />
-    public class DetalleOrden :Identificador<int>
+    public class DetalleOrden : Identificador<int>
     {
         /// <summary>
         /// Gets or sets the identifier orden.

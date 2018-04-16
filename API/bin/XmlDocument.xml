@@ -494,11 +494,13 @@
             <param name="orden">La orden.</param>
             <returns></returns>
         </member>
-        <member name="M:API.Controllers.OrdenesController.OrdenesClienteRango(Entities.ParametroConsultaClienteRango)">
+        <member name="M:API.Controllers.OrdenesController.OrdenesClienteRango(System.Int32,System.DateTime,System.DateTime)">
             <summary>
-            Consulta las ordenes de un cliente en un rango de fechas.
+            Ordenes realizadas por un cliente en un rango de fechas
             </summary>
-            <param name="parametro">El parametro. con los valores de id cliente y rango de fechas</param>
+            <param name="idCLiente">el identificador del cliente.</param>
+            <param name="fechaInicial">Fecha inicial para realizar la busqueda</param>
+            <param name="fechaFinal">Fecha final para realizar la busqueda</param>
             <returns></returns>
         </member>
         <member name="M:API.Controllers.OrdenesController.Clientes">
@@ -507,11 +509,24 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:API.Controllers.OrdenesController.CantidadProductosAdquiridosCliente(System.Int32)">
+        <member name="M:API.Controllers.OrdenesController.ConsultarCantidadProductosAdquiridosCliente(System.Int32)">
             <summary>
-            Cantidad de productos adquiridos por cliente.
+            Cantidads the productos adquiridos cliente. la cantidad de productos la asigna en la propiedad precio
             </summary>
             <param name="idCliente">el identificador del cliente.</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.OrdenesController.ConsultarPorcentajeProductosVendidos">
+            <summary>
+            Consulta el porcentaje de venta de cada producto, asigna el porcentaje en la propiedad precio
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.OrdenesController.ConsultarProductosPermitidosCliente(System.Int32)">
+            <summary>
+            Consulta los productos permitidos para un cliente
+            </summary>
+            <param name="idCliente">El identificador del cliente</param>
             <returns></returns>
         </member>
     </members>

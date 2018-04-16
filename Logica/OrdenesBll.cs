@@ -82,19 +82,40 @@ namespace Logica
         }
 
         /// <summary>
-        /// Cantidads the productos adquiridos cliente.
+        /// Cantidads the productos adquiridos cliente. la cantidad de productos la asigna en la propiedad precio
         /// </summary>
         /// <param name="idCliente">The identifier cliente.</param>
         /// <returns></returns>
-        public int CantidadProductosAdquiridosCliente(int idCliente)
+        public List<Producto> ConsultarCantidadProductosAdquiridosCliente(int idCliente)
         {
             using (Data.ProductoCrud crud = new Data.ProductoCrud())
-                return crud.CantidadProductosAdquiridosCliente(idCliente);
+                return crud.ConsultarCantidadProductosAdquiridosCliente(idCliente);
+        }
+
+        /// <summary>
+        /// Consulta los productos permitidos para un cliente
+        /// </summary>
+        /// <param name="idCliente"></param>
+        /// <returns></returns>
+        public List<Producto> ConsultarProductosPermitidosCliente(int idCliente)
+        {
+            using (Data.ProductoCrud crud = new Data.ProductoCrud())
+                return crud.ConsultarProductosPermitidosCliente(idCliente);
+        }
+
+        /// <summary>
+        /// Consulta el porcentaje de venta de cada producto, asigna el porcentaje en la propiedad precio
+        /// </summary>
+        /// <returns></returns>
+        public List<Producto> ConsultarPorcentajeProductosVendidos()
+        {
+            using (Data.ProductoCrud crud = new Data.ProductoCrud())
+                return crud.ConsultarPorcentajeProductosVendidos();
         }
 
         public void Dispose()
         {
-            
+
         }
     }
 }

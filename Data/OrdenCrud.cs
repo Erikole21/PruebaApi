@@ -38,6 +38,7 @@ namespace Data
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@ID_CLIENTE", orden.Cliente.Id);
                 cmd.Parameters.AddWithValue("@DIRECCION_ENTREGA", orden.DireccionEntrega);
+                cmd.Parameters.AddWithValue("@VALOR_TOTAL", orden.ValorTotal);
                 cmd.Parameters.AddWithValue("@OPERACION", 1);
                 sqlConn.Open();
                 return Convert.ToInt32(cmd.ExecuteScalar());
@@ -91,7 +92,7 @@ namespace Data
             orden.Id = Convert.ToInt32(read["Id"]);
             orden.FechaRegistro = Convert.ToDateTime(read["FechaRegistro"]);
             orden.ValorTotal = Convert.ToDecimal(read["ValorTotal"]);
-            orden.DireccionEntrega = read["Nombre"].ToString();
+            orden.DireccionEntrega = read["DireccionEntrega"].ToString();
 
             return orden;
         }

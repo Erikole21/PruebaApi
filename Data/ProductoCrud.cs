@@ -52,20 +52,54 @@ namespace Data
         }
 
         /// <summary>
-        /// Cantidads the productos adquiridos cliente.
+        /// Consulta el porcentaje de venta de cada producto, asigna el porcentaje en la propiedad precio
         /// </summary>
-        /// <param name="idCliente">The identifier cliente.</param>
         /// <returns></returns>
-        public int CantidadProductosAdquiridosCliente(int idCliente)
+        public List<Producto> ConsultarPorcentajeProductosVendidos()
         {
             using (SqlConnection sqlConn = new SqlConnection(Conexion.Cadena))
             {
+                List<Producto> productos = new List<Producto>();
+                SqlCommand cmd = new SqlCommand("STM_PRODUCTOS", sqlConn);
+                cmd.CommandType = CommandType.StoredProcedure;                
+                cmd.Parameters.AddWithValue("@OPERACION", 3);
+                sqlConn.Open();
+                SqlDataReader read = cmd.ExecuteReader();
+                if (read.HasRows)
+                {
+                    Producto producto = null;
+                    while (read.Read())
+                        productos.Add(MapearProducto(read, producto));
+                }
+
+                return productos;
+            }
+        }
+
+        /// <summary>
+        /// Cantidads the productos adquiridos por cliente.
+        /// </summary>
+        /// <param name="idCliente">The identifier cliente.</param>
+        /// <returns></returns>
+        public List<Producto> ConsultarCantidadProductosAdquiridosCliente(int idCliente)
+        {
+            using (SqlConnection sqlConn = new SqlConnection(Conexion.Cadena))
+            {
+                List<Producto> productos = new List<Producto>();
                 SqlCommand cmd = new SqlCommand("STM_PRODUCTOS", sqlConn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@IDCLIENTE", idCliente);
                 cmd.Parameters.AddWithValue("@OPERACION", 2);
                 sqlConn.Open();
-                return Convert.ToInt32(cmd.ExecuteScalar());
+                SqlDataReader read = cmd.ExecuteReader();
+                if (read.HasRows)
+                {
+                    Producto producto = null;
+                    while (read.Read())
+                        productos.Add(MapearProducto(read, producto));
+                }
+
+                return productos;
             }
         }
 

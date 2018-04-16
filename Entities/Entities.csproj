@@ -44,7 +44,6 @@
     <Compile Include="DetalleOrden.cs" />
     <Compile Include="Identificador.cs" />
     <Compile Include="Orden.cs" />
-    <Compile Include="ParametroConsultaClienteRango.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

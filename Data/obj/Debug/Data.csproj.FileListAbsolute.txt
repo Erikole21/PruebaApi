@@ -7,3 +7,12 @@ C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.csproj.CoreC
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.dll
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Data\obj\Debug\Data.pdb
+D:\Plantillas\Pruebas\PruebaApi\Data\bin\Debug\Data.dll
+D:\Plantillas\Pruebas\PruebaApi\Data\bin\Debug\Data.pdb
+D:\Plantillas\Pruebas\PruebaApi\Data\bin\Debug\Entities.dll
+D:\Plantillas\Pruebas\PruebaApi\Data\bin\Debug\Entities.pdb
+D:\Plantillas\Pruebas\PruebaApi\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Plantillas\Pruebas\PruebaApi\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Plantillas\Pruebas\PruebaApi\Data\obj\Debug\Data.csproj.CopyComplete
+D:\Plantillas\Pruebas\PruebaApi\Data\obj\Debug\Data.dll
+D:\Plantillas\Pruebas\PruebaApi\Data\obj\Debug\Data.pdb

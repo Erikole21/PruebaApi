@@ -9,3 +9,14 @@ C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.csproj.C
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.dll
 C:\Users\erikmrodriguezl\source\repos\PruebaApi\Logica\obj\Debug\Logica.pdb
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Logica.dll
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Logica.pdb
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Data.dll
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Entities.dll
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Data.pdb
+D:\Plantillas\Pruebas\PruebaApi\Logica\bin\Debug\Entities.pdb
+D:\Plantillas\Pruebas\PruebaApi\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\Plantillas\Pruebas\PruebaApi\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+D:\Plantillas\Pruebas\PruebaApi\Logica\obj\Debug\Logica.csproj.CopyComplete
+D:\Plantillas\Pruebas\PruebaApi\Logica\obj\Debug\Logica.dll
+D:\Plantillas\Pruebas\PruebaApi\Logica\obj\Debug\Logica.pdb
